@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+/* 调节顶图 */
+.picture {
+    margin: 0 auto;
+    height: 200px;
+    width: 1200px;
+    /* 隐藏多余图片 */
+    overflow: hidden;
+}
+/* 顶图a标签 */
+.picture>a {
+    height: 300px;
+    width: 1200px;
+    display:block;
+}
+/* 导航整体盒子 */
+
+.tool {
+    height: 35px;
+    background-color: #f9f9f9;
+}
+/* 导航内部主体盒子 */
+.tool_body {
+    width: 1200px;
+    height: 35px;
+    /* background-color: green; */
+    margin: 0 auto;
+}
+/* 导航主体内容开始 */
+/* 主体左边开始 */
+.body_left {
+    float: left;
+}
+.body_left li {
+    display: inline-block;
+    height: 34px;
+    padding-top: 5px;
+}
+.body_left a {
+    padding: 4px 22px 0 9px;
+    font-size: 12px;
+    color: #666;
+}
+/* 箭头 */
+ .dropdown-arrow {
+    transition: transform 0.3s; 
+}
+li:hover .dropdown-arrow {
+    transform: rotate(180deg);
+}
+/* 主体左边结束 */
+
+/* 主体右侧开始 */
+.body_right {
+    float: right;
+    height: 34px;
+    /* background-color: red; */
+    font-size: 0px;
+}
+.body_right li {
+    display: inline-block;
+    height: 34px;
+    font-size: 12px;
+    line-height: 34px;
+}
+.body_right li a,.body_right li{
+    color: #666;
+    font-size: 12px;
+}
+.body_right li .a1 {
+    color: red;
+}
+.a2:hover {
+    color: red;
+}
+
+.lump {
+    padding: 0 7px 0 8px;
+}
+/* 购物车 */
+.fa-shopping-cart:before {
+    color: red;
+    margin-right: 1px; 
+}
+.shopping_car span {
+    color: red;
+}
+.division {
+    width: 6px;
+    text-align: center;
+}
+/* 主体右侧结束 */
+/* 导航主体内容结束 */
