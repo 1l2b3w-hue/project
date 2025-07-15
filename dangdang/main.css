@@ -3,15 +3,111 @@ main {
     margin: 0 auto;
     height: 100px;
     width: 1200px;
-    background-color: skyblue;
+    /* background-color: skyblue; */
 }
 .logo {
     height: 100px;
     float: left;
 }
-.search {
-    float: left;
+/* 搜索框开始 */
+.search_body {
+    display: inline-block;
     width: 538px;
     height: 100px;
+    /* background-color: green; */
+    padding-top: 32px;
+    
+}
+.search_area {
+    float: left;
+    width: 398px;
+    height: 36px;
+    border: 1px solid red;
+    border-right: 0;
+}
+.search_word {
+    float: left;
+    border: 2px solid red;
+    border-left: 0;
+    width: 92px;
+    height: 36px;
+    background-color: #f6f6f6;
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+    line-height: 36px;
+  
+}
+.search_img {
+    float: left;
+    display: inline-block;
+    width: 48px;
+    height: 36px;
+    background-image: url(../image/3.png);
+}
+.under_script {
+    float: left;
+    width: 538px;
+    height: 20px;
+    /* background-color: green; */
+    height: 20px;
+    font-size: 12px;
+    line-height: 20px;
+}
+.under_script span {
+    color: #666;
+    float: left;
+    margin-right: 7px;
+}
+.under_script li {
+    float: left;
+    margin-right: 15px;
+}
+.under_script li :hover ,.heigh_search:hover {
+    color: red;
+    text-decoration: underline;
+}
+.under_script a {
+    color: #666;
+}
+.heigh_search {
+    float: left;
+}
+.search_right {
+    float: right;
+    width: 184px;
+    height: 100px;
+    /* background-color: green; */
+    padding-top: 30px;
+}
+.search_right a {
+    float: left;
+    width: 92px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+  
+}
+.s_left { 
+    padding-left: 5px; 
+    color: white;
     background-color: red;
 }
+.s_right {
+    color: #666;
+    background-color: #f6f6f6;
+}
+.s_left .fa-shopping-cart::before {
+    color: white;
+    
+}
+.s_left:hover {
+    background-color: white;
+    color: red;
+}
+
+.s_right:hover {
+    color: red;
+}
+/* 搜索区域结束 */
