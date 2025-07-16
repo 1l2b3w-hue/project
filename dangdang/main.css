@@ -139,7 +139,7 @@ main {
     line-height: 40px;
 }
 .all_goods {
-    width: 190px;
+    width: 200px;
     height: 40px;
     background-color: red;
     margin-right: 17px;
@@ -175,6 +175,7 @@ main {
     margin: 0 auto;
     width: 1200px;
     height: 508px;
+    padding-bottom: 20px;
     /* background-color: red; */
 }
 /* 分类左侧开始 */
@@ -378,4 +379,135 @@ main {
     height: 8px;
     background-color: #c8c8c8;
     
+}
+/* 分类右侧结束 */
+/* 分类主体结束 */
+/* 抢购区域开始 */
+/* 抢购区域规划 */
+.discount {
+    height: 497px;
+}
+.discount_area {
+    margin: 0 auto;
+    width: 1200px;
+    height: 497px;
+}
+.dis_left {
+    float: left;
+  
+}
+.dis_top {
+    width: 996px;
+    height: 41px;
+    background-color: skyblue;
+    border-bottom: 2px solid #666;
+}
+.dis_body {
+    width: 996px;
+    height: 456px;
+    /* background-color: skyblue; */
+}
+.dis_right {
+    float: left;
+    width: 204px;
+    height: 497px;
+    background-color: green;
+}
+/* 抢购区域规划结束 */
+/* 抢购区域头部开始 */
+.time_left {
+    float: left;
+    position: relative;
+    width: 224px;
+    height: 39px;
+   
+}
+.time_left a {
+    display: inline-block;
+    margin-top: 6px;
+    width: 64px;
+    height: 39px;
+    background-image: url(../image/抢购.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.time_left .iconfont {
+    position: absolute;
+    top: 3px;
+    left: 80px;
+    display: inline-block;
+    font-size: 30px;
+    line-height: 39px;
+}
+.minute_box {
+    position: absolute;
+    right: 7px;
+    top: 7px;
+}
+.minute {
+    display: inline-block;
+    width: 29px;
+    height: 29px;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    line-height: 29px;
+    border: 1px solid #666;
+}
+.divi_mu {
+    display: inline-block;
+    width: 4px;
+    height: 29px;
+    font-size: 16px
+}
+.time_right {
+    float: right;
+    width: 650px;
+    height: 38px;
+}
+.time_right li {
+    float: left;
+    margin-right: 50px;
+}
+.time_right a {
+    display: inline-block;
+    width: 80px;
+    height: 39px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 39px;
+    color: #666;
+    padding-bottom: 1px;
+}
+/* 抢购区域头部结束 */
+/* 抢购区域主体开始 */
+.dis_book {
+    float: left;
+    padding-top: 10px;
+    width: 199.2px;
+    height: 228px;
+    text-align: center;
+    background-color: skyblue;
+}
+.dis_bookname {
+    margin: o auto;
+    padding-top: 15px;
+    height: 37px;
+}
+.dis_bookname a  {
+    white-space: nowrap;    /* 防止文本换行 */ 
+    overflow: hidden;     /* 隐藏超出的内容 */  
+    text-overflow: ellipsis;  /* 超出部分显示省略号 */
+    display: inline-block;
+    width: 180px;
+    height: 82px;
+    font-size: 12px;
+    color: #646464;
+}
+.dis_book_price {
+   margin: 0 auto;
+   width: 180px;
+   height: 20px;
+   background-color: red;
 }
