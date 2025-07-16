@@ -1,9 +1,13 @@
 main {
     font-size: 0px;
-    margin: 0 auto;
     height: 100px;
-    width: 1200px;
+    
     /* background-color: skyblue; */
+}
+/* logo和搜索框开始 */
+.logo_search{
+    width: 1200px;
+    margin: 0 auto;
 }
 .logo {
     height: 100px;
@@ -111,3 +115,267 @@ main {
     color: red;
 }
 /* 搜索区域结束 */
+/* 分类区域开始 */
+/* 分类头部开始 */
+.classify_top {
+    height: 43px;
+    border-bottom: 3px solid red;
+    
+}
+.classify_top_main {
+    margin: 0 auto;
+    width: 1200px;
+    height: 43px;
+    font-size: 14px;
+}
+.classify_top_main ul {
+    height: 0;
+}
+.classify_top_main li {
+    float: left;
+}
+.classify_top_main a {
+    float: left;
+    line-height: 40px;
+}
+.all_goods {
+    width: 190px;
+    height: 40px;
+    background-color: red;
+    margin-right: 17px;
+}
+.all_goods a {
+    width: 200px;
+    padding-left: 17px;
+    color: white;
+    position: relative;
+}
+.all_goods span {
+    font-size: 14px;
+    font-weight: 700;
+    position: absolute;
+    right: 28px;
+}
+
+.goods {
+    padding: 0 15px;
+    height: 40px;
+    font-weight: 700;
+    color: #323232;
+}
+.goods:hover {
+    color: red;
+}
+/* 分类头部结束 */
+/* 分类主体开始 */
+.classify_body {
+    height: 508px;
+}
+.classify_body_content {
+    margin: 0 auto;
+    width: 1200px;
+    height: 508px;
+    /* background-color: red; */
+}
+/* 分类左侧开始 */
+.content_left {
+    float: left;
+    width: 200px;
+    height: 488px;
+    background-color: #fafafa;
+}
+.content_left li {
+    height: 30px;
+    width: 200px;
+    font-size: 14px;
+    padding-left: 18px;
+    
+}
+.content_left span a {
+    color: #323232;
+}
+.content_left li:hover {
+    border: 2px solid red;
+    border-right: none;
+}
+
+.content_left span a:hover{
+    color: red;
+    text-decoration: underline;
+}
+/* 分类左侧结束 */
+
+/* 分类中间开始 */
+.content_middle {
+    float: left;
+    width: 796px;
+    height: 488px;
+    background-color: green;
+}
+.content_middle  {
+    position: relative;    
+    width: 796px;
+    height: 326px;
+}
+
+/* 左右箭头 */
+.button_left  a {
+
+    top:128px;
+    position: absolute;
+    width: 33px;
+    height: 70px;
+    font-size: 40px;
+    color: #8a8a8a;
+    line-height: 70px;
+    background-color: rgb(209, 208, 208);
+}
+
+.button_right a {
+    top:128px;
+    right: 0;
+    position: absolute;
+    width: 33px;
+    height: 70px;
+    font-size: 40px;
+    color: #8a8a8a;
+    line-height: 70px;
+    background-color: rgb(209, 208, 208);
+}
+/* 左右箭头结束 */
+/* 数字按钮 */
+.button_bottom {
+    position: absolute; 
+    bottom: 0;
+    left:333px;
+    bottom: 7px;
+    width: 130px;
+    height: 20px;
+    
+}
+.button_bottom li {
+    float: left;
+    margin: 0 6px 0 0;
+    border-radius: 10px;
+    height: 20px;
+    width: 20px;
+    background-color: #646464;
+    text-align: center;
+    line-height: 20px;
+}
+.button_bottom li a {
+    color: #fff;
+    font-size: 12px;
+}
+.button_bottom  :hover {
+    background-color: red;
+}
+/* 数字按钮结束 */
+/* 底部图片 */
+.middle_bottom {
+    width: 796px;
+    height: 160px;
+}
+
+.middle_bottom div {
+    float: left;
+    width: 198px;
+    height: 160px;
+    margin: 0 1px 0 0;
+}
+/* 底部图片结束 */
+/* 分类中间结束 */
+/* 分类右侧开始 */
+.content_right {
+    float: left;
+    width: 202px;
+    height: 488px;
+    
+}
+.shoes_picture {
+    width: 202px;
+    height: 195px;
+}
+.right_message {
+    width: 202px;
+    height: 172px;
+    
+}
+.mes_top {
+    width: 202px;
+    height: 28px;
+    background-color: #f0f0f0;
+    font-size: 14px;
+    color: #646464;
+    line-height: 28px;
+    text-align: center;
+}
+.mes_top div {
+    float: left;
+    background-color: #fff;
+    width: 101px;
+    
+}
+.mes_top a {
+    float: right;
+    
+    color: #646464;
+    width: 101px;
+}
+.mes_body {
+    padding-top: 6px;
+    width: 202px;
+    height: 142px;
+    font-size: 12px;
+    background-color: #fff;
+}
+.mes_body a {
+    display: inline-block;
+    padding-left: 10px;
+    width: 183px;
+    height: 25px;
+    line-height: 25px;
+    color: #646464;
+}
+.mes_body>ul>li:nth-child(1)>a,.mes_body>ul>li:nth-child(2) a{
+    color: red;
+}
+.mes_body a:hover {
+    color: red;
+}
+.present_card {
+    position: relative;
+    text-align: center;
+}
+.card_left,.card_right {
+    position: absolute;
+    top: 39.5px;
+    width: 30px;
+    height: 40px;
+    font-size: 25px;
+    color: #8a8a8a;
+    line-height: 40px;
+    background-color: rgb(209, 208, 208);
+}
+.card_left a,.card_right a {
+    color: #8a8a8a;
+}
+.card_right {
+    right: 0;
+}
+.card_circle {
+    position: absolute;
+    left: 80px;
+    bottom: 8px;
+    width: 42px;
+    height: 8px;
+}
+.card_circle li {
+    float: left;
+    margin-right: 6px;
+    border-radius: 4px;
+    width: 8px;
+    height: 8px;
+    background-color: #c8c8c8;
+    
+}
