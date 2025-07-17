@@ -399,7 +399,7 @@ main {
 .dis_top {
     width: 996px;
     height: 41px;
-    background-color: skyblue;
+    /* background-color: skyblue; */
     border-bottom: 2px solid #666;
 }
 .dis_body {
@@ -411,7 +411,6 @@ main {
     float: left;
     width: 204px;
     height: 497px;
-    background-color: green;
 }
 /* 抢购区域规划结束 */
 /* 抢购区域头部开始 */
@@ -488,7 +487,9 @@ main {
     width: 199.2px;
     height: 228px;
     text-align: center;
-    background-color: skyblue;
+    font-size: 12px;
+    border-left: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
 }
 .dis_bookname {
     margin: o auto;
@@ -502,12 +503,274 @@ main {
     display: inline-block;
     width: 180px;
     height: 82px;
-    font-size: 12px;
     color: #646464;
 }
+.dis_book>.dis_bookname> a:hover {
+    color: red;
+    text-decoration: underline;
+}
 .dis_book_price {
-   margin: 0 auto;
-   width: 180px;
-   height: 20px;
-   background-color: red;
+    margin: 0 auto;
+    text-align: left;
+    width: 180px;
+    height: 20px; 
+    line-height: 20px;
+    color: red;
+    font-size: 16px;
+}
+.dis_book_price .del {
+    color:#646464 ;
+    font-size: 12px;
+    text-decoration: line-through;
+}
+/* 打折区域左侧结束 */
+/* 打折区域右侧开始 */
+/* 打折区域右侧头部开始 */
+.disr_head {
+    position: relative;
+    height: 41px;
+    font-size: 16px;
+    line-height: 40px;
+    border-bottom: 2px solid red;
+}
+.disr_head h3 {
+    
+    display: inline-block;
+    padding-left: 8px;
+    font-weight: 400;
+}
+h3 span {
+    color: red;
+}
+.disr_head ul {
+    position: absolute;
+    right: 0;
+    top: 16px;
+    float: right;
+    width: 28px;
+    height: 8px;
+}
+.disr_head ul li {
+    float: left;
+    margin-right: 6px;
+    border-radius: 4px;
+    width: 8px;
+    height: 8px;
+    background-color: #c8c8c8;
+}
+.disr_head ul li:first-child{
+    background-color: red;
+}
+/* 打折区域右侧头部结束 */
+/* 打折区域右侧主体开始 */
+.disr_body a img {
+    border: 1px solid #e6e6e6;
+    width: 204px;
+    height: 114px;
+    
+}
+/* 打折区域右侧主体结束 */
+/* 打折区域结束 */
+/* 图书区域 */
+.book_area {
+    margin: 30px auto;
+    width: 1200px;
+    height: 499px;
+    
+}
+.barea_left {
+    float: left;
+}
+.barea_right {
+    float: left;
+    margin-left: 4px;
+    width: 280px;
+    height: 499px;
+    
+}
+/*图书左侧开始 */
+/* 图书整个布局 */
+/* 左侧开始 */
+.bleft_head {
+    width: 916px;
+    height: 46px;
+    line-height: 46px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #000;
+}
+.bleft_head div:first-child {
+    float: left;
+    font-size: 20px;
+    font-weight: 700;
+}
+.bleft_head div:nth-child(2) {
+    float: right;
+    font-size: 14px;
+    color:#646464;
+}
+.bleft_head a {
+    color: black;
+}
+.bleft_head a:hover {
+    color: red;
+}
+.bleft_head div:nth-child(2) span{
+    display: inline-block;
+    width: 115px;
+    height: 44px;
+    background-color: #f5f5f5;
+    text-align: center;
+    border: 1px solid #e6e6e6;
+}
+.bleft_head div:nth-child(2) span:hover {
+    color: #525252;
+    font-weight: 700;
+    border:2px solid #000;
+    border-bottom:none;
+}
+.bleft_body {
+    width: 916px;
+    height: 443px;
+}
+.left_body_left {
+    float: left;
+    width: 238px;
+    height: 443px;
+    border: 1px solid #e6e6e6;
+}
+.left_body_left a img {
+    width: 238px;
+    height: 331px;
+}
+.left_body_left ul {
+    width: 238px;
+    height: 112px;
+    font-size: 12px;
+}
+.left_body_left ul li {
+    float: left;
+    width: 79px;
+    height: 28px;
+    padding-left: 16px;
+}
+.left_body_left ul li a {
+    color: #323232;
+}
+.left_body_left ul li a:hover {
+    color: red;
+    text-decoration: underline;
+}
+.left_body_right {
+    float: left;
+    width: 678px;
+    height: 443px;
+    
+}
+.left_body_right>div {
+    float: left;
+    width: 169.5px;
+    height: 221.5px;
+    font-size: 12px;
+    color: #969696;
+    border-right: 1px solid #e6e6e6;
+    border-top: 1px solid #e6e6e6;
+}
+.left_body_right>div:first-child,.left_body_right div:first-child img {
+    /* 控制第一张图与宽度一致 */
+    width: 339px;
+}
+.bright_book {
+    padding: 10px;
+}
+.bright_book a:first-child {
+    white-space: nowrap;    /* 防止文本换行 */ 
+    overflow: hidden;     /* 隐藏超出的内容 */  
+    text-overflow: ellipsis;  /* 超出部分显示省略号 */
+}
+.bright_book a:nth-child(2) {
+    color: #646464;
+}
+.bright_book a:nth-child(2):hover{
+    color: red;
+    text-decoration: underline;
+}
+.br_book_price {
+    width: 150px;
+    height: 16px;
+    margin-top: 3px;
+    line-height: 16px;
+}
+.br_book_price span:first-child{
+    font-size: 14px;
+    color: red;
+}
+.br_book_price span:last-child{
+    margin-left: 5px;
+    text-decoration: line-through; 
+}
+/* 左侧完成 */
+/* 右侧大体布局 */
+
+.bright_head a {
+    display: inline-block;
+    width: 140px;
+    height: 47px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 47px;
+    color: #666;
+    border: 1px solid #e6e6e6;
+}
+.bright_head a:hover {
+    text-decoration: underline;
+}
+.barea_right .bright_head a:first-child {
+    border-bottom: none;
+}
+.bright_body {
+    width: 278px;
+    height: 452px;
+    font-size: 12px;
+    border: 1px solid #e6e6e6;
+    padding-top: 20px;
+}
+.bright_body ul li a {
+    color: #646464;
+}
+.bright_body ul li:first-child {
+    width: 278px;
+    height: 133px;
+    /* margin-bottom: 63px; */
+}
+.bright_body ul li:first-child span {
+    float: left;
+    width: 40px;
+    height: 133px;
+    color: #ff3288;
+    font-weight: 700;
+}
+.bright_body ul li:first-child a{
+    float: left;
+    width: 135.56px;
+    height: 96px;
+}
+.bright_body ul li:first-child a:hover {
+    color: red;
+    text-decoration: underline;
+}
+.bright_body ul li:nth-child(n+2){
+    width: 278px;
+    height: 33px;
+    line-height: 33px;
+}
+.bright_body ul li:nth-child(n+2) a:nth-child(2) {
+    display: inline-block;
+    width: 234px;
+    height: 33px;
+    border-top: 1px solid #e6e6e6;
+}
+.bright_body ul li:nth-child(n+1) span {
+    padding-left: 15px;
+    display: inline-block;
+    width: 40px;
 }
