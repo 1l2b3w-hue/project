@@ -1,6 +1,5 @@
 main {
     font-size: 0px;
-    height: 100px;
     
     /* background-color: skyblue; */
 }
@@ -928,6 +927,9 @@ h3 span {
     font-weight: 700;
     line-height: 36px;
     border-bottom: 2px solid red;
+}
+.recom_body {
+    height: 1355px;
 }
 .recom_body ul li {
     float: left;

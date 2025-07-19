@@ -1,0 +1,118 @@
+.footer_head {
+    margin-top: 60px;
+    background-color: #fafafa;
+    border-top: 2px solid red;
+}
+.footer_head div {
+    margin: 0 auto;
+    padding: 5px 0 5px 30px;
+    width: 770px;
+    height: 78px;
+}
+.footer_head div a {
+    display: inline-block;
+    padding: 7px 0 7px 48px;
+    width: 187px;
+    height: 52px;
+}
+.footer_body {
+    border-top:1px solid #e6e6e6 ;
+    border-bottom:1px solid #e6e6e6 ;
+}
+.footer_body>div {
+    margin: 0 auto;
+    padding-top: 30px;
+    width: 920px;
+    height: 170px;
+}
+.footer_body>div>div {
+    float: left;
+    width: 154px;
+    height: 116px;
+}
+.footer_body>div>div span {
+    display: inline-block;
+    padding-left: 30px;
+    width: 154px;
+    height: 36px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 36px;
+    color: #323232;
+}
+.footer_body>div>div ul {
+    padding-left: 30px;
+}
+.footer_body>div>div ul li {
+    width: 124px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+.footer_body>div>div ul li a {
+    font-size: 12px;
+    color: #7d7d7d;
+}
+.footer_body>div>div ul li a:hover {
+    color: red;
+    text-decoration: underline;
+}
+.footer_foot {
+    padding: 17px 0 50px;
+    color: #8c8c8c;
+}
+.footer_foot div:first-child {
+    padding-bottom: 17px;
+    font-size: 12px;
+    text-align: center;
+}
+.footer_foot div:first-child a {
+    color: #8c8c8c;
+}
+.footer_foot div:first-child a:hover,.footer_foot div:nth-child(3) a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.footer_foot div:first-child span {
+    margin: 0 17px 0 19px;
+    
+}
+.footer_foot div:nth-child(2) {
+    margin: 0 auto;
+    padding-top: 10px;
+    width: 920px;
+    font-size: 12px;
+    text-align: center;
+}
+.footer_foot div:nth-child(3) {
+    margin: 0 auto;
+    padding-top: 10px;
+    width: 960px;
+    font-size: 12px;
+    text-align: center;
+}
+.footer_foot div:nth-child(3) .f_div {
+    margin: 0 17px 0 19px;
+}
+.footer_foot div:nth-child(3) span {
+    display:inline-block;
+    height: 20px;
+}
+.footer_foot div:nth-child(3) a {
+    color: #8c8c8c;
+}
+.footer_foot div:nth-child(4) {
+    margin: 0 auto;
+    width: 995px;
+    padding: 12px 0 0 10px;
+}
+.footer_foot div:nth-child(4)>a {
+    display: inline-block;
+    width: 185px;
+    height: 77px;
+    padding: 15px 25px;
+}
+.footer_foot div:nth-child(4)>a img {
+    width: 100%;
+    height: 100%;
+}
